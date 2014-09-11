@@ -12,14 +12,14 @@
     "require": {
         "php": ">=5.4.0",
         "contao/contao-bundle": "dev-develop",
-        "contao/module-calendar": "dev-develop",
-        "contao/module-comments": "dev-develop",
-        "contao/module-core": "dev-develop",
-        "contao/module-faq": "dev-develop",
-        "contao/module-listing": "dev-develop",
-        "contao/module-news": "dev-develop",
-        "contao/module-newsletter": "dev-develop",
-        "contao/module-repository": "dev-develop"
+        "contao/module-calendar": "dev-feature/symfony",
+        "contao/module-comments": "dev-feature/symfony",
+        "contao/module-core": "dev-feature/symfony",
+        "contao/module-faq": "dev-feature/symfony",
+        "contao/module-listing": "dev-feature/symfony",
+        "contao/module-news": "dev-feature/symfony",
+        "contao/module-newsletter": "dev-feature/symfony",
+        "contao/module-repository": "dev-feature/symfony"
     },
     "require-dev": {
         "contao/contao-devtools": "dev-develop",
