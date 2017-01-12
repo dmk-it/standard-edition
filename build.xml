@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <project name="Contao" default="build" basedir=".">
-  <exec executable="git" outputProperty="version">
+  <exec executable="git" outputProperty="version" checkreturn="true">
     <arg value="describe" />
     <arg value="--tags" />
   </exec>
